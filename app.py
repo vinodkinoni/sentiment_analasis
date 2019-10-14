@@ -58,5 +58,4 @@ def predict():
 #########################Code for Sentiment Analysis
 
 if __name__ == "__main__":
-    init()
     app.run()
