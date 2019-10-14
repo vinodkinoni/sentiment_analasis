@@ -22,9 +22,8 @@ def init():
     graph = tf.get_default_graph()
 
 #########################Code for Sentiment Analysis
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def home():
-
     return render_template("home.html")
 
 @app.route('/predict', methods = ['POST', "GET"])
